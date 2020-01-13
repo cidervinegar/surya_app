@@ -27,7 +27,7 @@
     <fragment
         android:id="@+id/nav_tools"
         android:name="com.example.surya_app.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
+        android:label="@string/menu_paediatricsuperspeciality"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
@@ -39,7 +39,7 @@
     <fragment
         android:id="@+id/nav_peadiatric_superspeciality"
         android:name="com.example.surya_app.ui.women_care.women_careFragment"
-        android:label="@string/menu_tools"
+        android:label="@string/menu_women_care"
         tools:layout="@layout/fragment_pediatric_superspeciality" />
 
     <fragment
@@ -51,6 +51,6 @@
     <fragment
         android:id="@+id/nav_send"
         android:name="com.example.surya_app.ui.paediatric_superspeciality.paediatric_superspecialityFragment"
-        android:label="@string/menu_send"
+        android:label="@string/menu_paediatricsuperspeciality"
         tools:layout="@layout/fragment_send" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.surya_app.ui.paediatric_superspeciality
+package com.example.surya_app.ui.women_care
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

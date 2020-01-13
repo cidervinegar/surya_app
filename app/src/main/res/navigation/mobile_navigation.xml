@@ -38,7 +38,7 @@
 
     <fragment
         android:id="@+id/nav_peadiatric_superspeciality"
-        android:name="com.example.surya_app.ui.paediatric_superspeciality.PaediatricSuperspeciality"
+        android:name="com.example.surya_app.ui.women_care.PaediatricSuperspeciality"
         android:label="@string/menu_tools"
         tools:layout="@layout/fragment_pediatric_superspeciality" />
 

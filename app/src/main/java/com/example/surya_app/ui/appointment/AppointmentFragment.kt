@@ -1,4 +1,4 @@
-package com.example.surya_app.ui.gallery
+package com.example.surya_app.ui.appointment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.surya_app.R
 
-class GalleryFragment : Fragment() {
+class AppointmentFragment : Fragment() {
 
-    private lateinit var galleryViewModel: GalleryViewModel
+    private lateinit var appointmentViewModel: AppointmentViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        galleryViewModel =
-                ViewModelProviders.of(this).get(GalleryViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_gallery, container, false)
+        appointmentViewModel =
+                ViewModelProviders.of(this).get(AppointmentViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_appointment, container, false)
         val textView: TextView = root.findViewById(R.id.text_gallery)
-        galleryViewModel.text.observe(this, Observer {
+        appointmentViewModel.text.observe(this, Observer {
             textView.text = it
         })
         return root

@@ -21,6 +21,10 @@
             android:icon="@drawable/ic_menu_manage"
             android:title="@string/menu_tools" />
         <item
+            android:id="@+id/nav_neonatal"
+            android:icon="@mipmap/ic_surya"
+            android:title="@string/menu_neonatal" />
+        <item
             android:id="@+id/nav_peadiatric_superspeciality"
             android:icon="@drawable/ic_menu_manage"
             android:title="@string/menu_tools" />

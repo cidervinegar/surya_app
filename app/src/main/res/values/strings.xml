@@ -13,6 +13,7 @@
     <string name="menu_appointment">Appointment</string>
     <string name="menu_slideshow">Paediatric</string>
     <string name="menu_tools">Women Care</string>
+    <string name="menu_neonatal">Neonatal Care</string>
     <string name="menu_share">Neonatal Care</string>
     <string name="menu_send">Paediatric Superspeciality</string>
 </resources>

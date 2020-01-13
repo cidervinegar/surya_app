@@ -31,6 +31,12 @@
         tools:layout="@layout/fragment_tools" />
 
     <fragment
+        android:id="@+id/nav_neonatal"
+        android:name="com.example.surya_app.ui.neonatal.NeonatalFragment"
+        android:label="@string/menu_neonatal"
+        tools:layout="@layout/fragment_neonatal" />
+
+    <fragment
         android:id="@+id/nav_peadiatric_superspeciality"
         android:name="com.example.surya_app.ui.paediatric_superspeciality.PaediatricSuperspeciality"
         android:label="@string/menu_tools"

@@ -18,10 +18,10 @@
         tools:layout="@layout/fragment_appointment" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_paediatrics"
         android:name="com.example.surya_app.ui.Paediatric.PediatricFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:label="@string/menu_paediatrics"
+        tools:layout="@layout/fragment_paediatrics" />
 
 
     <fragment

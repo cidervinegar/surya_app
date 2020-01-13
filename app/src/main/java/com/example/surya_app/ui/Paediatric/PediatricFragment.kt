@@ -1,4 +1,4 @@
-package com.example.surya_app.ui.pediatric
+package com.example.surya_app.ui.Paediatric
 
 import android.os.Bundle
 import android.view.LayoutInflater

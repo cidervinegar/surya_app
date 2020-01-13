@@ -1,5 +1,6 @@
 package com.example.surya_app.ui.home
 
+import android.graphics.Color
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -9,9 +10,11 @@ import com.example.surya_app.R
 
 
 import com.example.surya_app.ui.home.ItemFragment.OnListFragmentInteractionListener
+import com.example.surya_app.ui.home.dummy.DummyContent
 import com.example.surya_app.ui.home.dummy.DummyContent.DummyItem
 
 import kotlinx.android.synthetic.main.fragment_item.view.*
+import java.util.*
 
 /**
  * [RecyclerView.Adapter] that can display a [DummyItem] and makes a call to the
@@ -37,6 +40,8 @@ class MyItemRecyclerViewAdapter(
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.fragment_item, parent, false)
+        val rnd = Random()
+        view.setBackgroundColor(Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256)))
         return ViewHolder(view)
     }
 

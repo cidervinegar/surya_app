@@ -1,4 +1,4 @@
-package com.example.surya_app.ui.slideshow
+package com.example.surya_app.ui.pediatric
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.surya_app.R
 
-class SlideshowFragment : Fragment() {
+class PediatricFragment : Fragment() {
 
-    private lateinit var slideshowViewModel: SlideshowViewModel
+    private lateinit var pediatricViewModel: PediatricViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        slideshowViewModel =
-                ViewModelProviders.of(this).get(SlideshowViewModel::class.java)
+        pediatricViewModel =
+                ViewModelProviders.of(this).get(PediatricViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_slideshow, container, false)
         val textView: TextView = root.findViewById(R.id.text_slideshow)
-        slideshowViewModel.text.observe(this, Observer {
+        pediatricViewModel.text.observe(this, Observer {
             textView.text = it
         })
         return root

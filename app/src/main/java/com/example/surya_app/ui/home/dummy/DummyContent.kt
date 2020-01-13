@@ -1,7 +1,11 @@
 package com.example.surya_app.ui.home.dummy
 
-import java.util.ArrayList
-import java.util.HashMap
+import android.graphics.Color
+import android.R.id.home
+import com.example.surya_app.ui.home.dummy.DummyContent
+import com.example.surya_app.ui.home.dummy.DummyContent.DummyItem
+import java.util.*
+
 
 /**
  * Helper class for providing sample content for user interfaces created by

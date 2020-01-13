@@ -23,11 +23,18 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
+
     <fragment
         android:id="@+id/nav_tools"
         android:name="com.example.surya_app.ui.tools.ToolsFragment"
         android:label="@string/menu_tools"
         tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_peadiatric_superspeciality"
+        android:name="com.example.surya_app.ui.paediatric_superspeciality.PaediatricSuperspeciality"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_pediatric_superspeciality" />
 
     <fragment
         android:id="@+id/nav_share"

@@ -23,4 +23,7 @@
     <string name="menu_neonatal">Neonatal Care</string>
     <string name="menu_share">Neonatal Care</string>
     <string name="menu_paediatricsuperspeciality">Paediatric Superspeciality</string>
+
+    <string name="button_PICU"><u>PICU</u></string>
+    <string name="button_general_pediatrics"><u>General Paediatrics</u></string>
 </resources>

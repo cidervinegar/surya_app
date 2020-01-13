@@ -21,7 +21,7 @@ class PediatricFragment : Fragment() {
     ): View? {
         pediatricViewModel =
                 ViewModelProviders.of(this).get(PediatricViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_slideshow, container, false)
+        val root = inflater.inflate(R.layout.fragment_paediatrics, container, false)
         val textView: TextView = root.findViewById(R.id.text_slideshow)
         pediatricViewModel.text.observe(this, Observer {
             textView.text = it

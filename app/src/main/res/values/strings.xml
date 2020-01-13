@@ -11,8 +11,15 @@
     <string name="menu_gallery">Gallery</string>
     <string name="about_us">About Us</string>
     <string name="menu_appointment">Appointment</string>
-    <string name="menu_slideshow">Paediatric</string>
+    <string name="menu_paediatrics">Paediatrics</string>
     <string name="menu_tools">Women Care</string>
+    <string name="menu_laproscopy_and_endoscopy">Laproscopy and Endoscopy</string>
+    <string name="menu_fertility_and_fetal">Fertility and Fetal Medicine</string>
+    <string name="menu_outpatient_services">Outpatient Services</string>
+    <string name="menu_inpatient_services">Inpatient Services</string>
+    <string name="menu_emergency_services">Emergency Services</string>
+    <string name="menu_diagnostics">Diagnostics</string>
+    <string name="menu_school_programme">School Programme</string>
     <string name="menu_neonatal">Neonatal Care</string>
     <string name="menu_share">Neonatal Care</string>
     <string name="menu_send">Paediatric Superspeciality</string>

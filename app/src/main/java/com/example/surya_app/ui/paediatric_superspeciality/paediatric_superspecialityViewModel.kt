@@ -1,10 +1,10 @@
-package com.example.surya_app.ui.send
+package com.example.surya_app.ui.paediatric_superspeciality
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SendViewModel : ViewModel() {
+class paediatric_superspecialityViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
         value = "Children are not small adults. To treat their complicated problems we need super specialists who are trained to treat children and infants. Surya hospital brings to Pune unparalleled team of super specialists. Our expert super specialists are well trained in their respective branches. They utilize established pediatric medical and surgical knowledge as well as new evidence based surgical and medical techniques to offer most current and when appropriate innovative treatments. The pediatric surgeons are experts in surgical care of children with newborn malformations, surgical emergencies, gastrointestinal problems, lung trachea chest wall malformations as well as tumours and cancer. The team performs both traditional and minimally invasive surgeries. The super specialist physicians provide comprehensive range of services in the fields such as intensive care, cardiology, neurology, genetic medicine, hemato-oncology and nephrology . The entire team of surgeons and physicians make Surya hospital one stop destination for any child care related problem under the sun.\n" +

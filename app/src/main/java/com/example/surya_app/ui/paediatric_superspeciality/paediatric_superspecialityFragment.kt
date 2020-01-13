@@ -1,4 +1,4 @@
-package com.example.surya_app.ui.send
+package com.example.surya_app.ui.paediatric_superspeciality
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,9 +10,9 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.surya_app.R
 
-class SendFragment : Fragment() {
+class paediatric_superspecialityFragment : Fragment() {
 
-    private lateinit var sendViewModel: SendViewModel
+    private lateinit var sendViewModel: paediatric_superspecialityViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -20,7 +20,7 @@ class SendFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         sendViewModel =
-                ViewModelProviders.of(this).get(SendViewModel::class.java)
+                ViewModelProviders.of(this).get(paediatric_superspecialityViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_send, container, false)
         val textView: TextView = root.findViewById(R.id.text_send)
         sendViewModel.text.observe(this, Observer {

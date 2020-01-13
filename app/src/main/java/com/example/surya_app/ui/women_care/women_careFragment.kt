@@ -10,9 +10,9 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.surya_app.R
 
-class PaediatricSuperspeciality : Fragment() {
+class women_careFragment : Fragment() {
 
-    private lateinit var paediatricSuperspecialityViewModel: PaediatricSuperspecialityViewModel
+    private lateinit var paediatricSuperspecialityViewModel: women_careViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -20,7 +20,7 @@ class PaediatricSuperspeciality : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         paediatricSuperspecialityViewModel =
-                ViewModelProviders.of(this).get(PaediatricSuperspecialityViewModel::class.java)
+                ViewModelProviders.of(this).get(women_careViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_tools, container, false)
         val textView: TextView = root.findViewById(R.id.text_tools)
         paediatricSuperspecialityViewModel.text.observe(this, Observer {

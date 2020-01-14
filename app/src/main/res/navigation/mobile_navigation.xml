@@ -28,7 +28,7 @@
         android:id="@+id/nav_tools"
         android:name="com.example.surya_app.ui.tools.ToolsFragment"
         android:label="@string/menu_paediatricsuperspeciality"
-        tools:layout="@layout/fragment_tools" />
+        tools:layout="@layout/fragment_women_care" />
 
     <fragment
         android:id="@+id/nav_neonatal"

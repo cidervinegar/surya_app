@@ -21,7 +21,7 @@ class women_careFragment : Fragment() {
     ): View? {
         paediatricSuperspecialityViewModel =
                 ViewModelProviders.of(this).get(women_careViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_tools, container, false)
+        val root = inflater.inflate(R.layout.fragment_women_care, container, false)
         val textView: TextView = root.findViewById(R.id.text_tools)
         paediatricSuperspecialityViewModel.text.observe(this, Observer {
             textView.text = it

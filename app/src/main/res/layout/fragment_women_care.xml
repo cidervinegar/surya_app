@@ -23,7 +23,6 @@
             android:textAlignment="gravity"
             android:textSize="@dimen/text_size" />
 
-
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 </androidx.core.widget.NestedScrollView>

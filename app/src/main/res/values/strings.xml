@@ -26,4 +26,9 @@
 
     <string name="button_PICU"><u>PICU</u></string>
     <string name="button_general_pediatrics"><u>General Paediatrics</u></string>
+    <string name="button_allergology"><u>Allergology</u></string>
+    <string name="button_anaesthesiology"><u>Anaesthesiology</u></string>
+    <string name="button_clinical_psychology"><u>Clinical Psychology</u></string>
+    <string name="button_community_medicine"><u>Community Medicine</u></string>
+    <string name="button_dermatology"><u>Dermatology</u></string>
 </resources>
